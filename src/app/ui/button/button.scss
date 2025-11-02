@@ -1,0 +1,20 @@
+.ui-button {
+  background-color: #000000;
+  color: white;
+  border-radius: 100px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  .primary {
+    background-color: #000000;
+    color: white;
+  }
+
+  &:active {
+    background-color: #1f1f1f;
+  }
+
+  &.filled {
+    width: 100%;
+  }
+}
